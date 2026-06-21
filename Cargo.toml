@@ -1,0 +1,12 @@
+[workspace]
+members = [
+    "crates/agent-quota-core",
+    "crates/agent-quota-cli",
+]
+resolver = "2"
+
+[workspace.package]
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/lmachineone/agent-quota-desktop"
+rust-version = "1.80"
